@@ -1,29 +1,29 @@
-JBPM4 Web Designer 1.2cut ��Ѱ�
+JBPM4 Web Designer 1.2cut 免费版
 
-1��������task�ڵ���type��expression����xml�ĵĴ���
+1、修正了task节点中type与expression生成xml的的错误
 
-2�������˵���xmlʱ��task�ڵ���type��expressionֵ�޷���ʾ������
-
---------------------------------------------------------------------------------------------------------------
-JBPM4 Web Designer ��Ѱ�
-
-JBPM4 Web Designer ��Ѱ棬�û���ͨ������www.antout.com�鿴��ʾ��Ƶ��
-
-JBPM4 Web Designer ��Ѱ棬�û���ֱ�ӷ����ʼ���QQ���������ȡ������
-
-JBPM4 Web Designer ��Ѱ治���϶��༭����
-
-JBPM4 Web Designer ��Ѱ�������ܰ����������ڵ㡢�޸Ľڵ㡢ɾ���ڵ㡢�����ڵ�������޸Ľڵ������ɾ���ڵ���������ߵ����ɡ�����xml����Ϣ��ʾ�ȡ�
+2、修正了导入xml时，task节点中type与expression值无法显示的问题
 
 --------------------------------------------------------------------------------------------------------------
-JBPM4 Web Designer ������
+JBPM4 Web Designer 免费版
 
-JBPM4 Web Designer �������������PC����ҳ������ϣ�����Internet Explore�������ڰ汾6����Firefox��Chrome��
+JBPM4 Web Designer 免费版，用户可通过官网www.zmose.com查看演示视频。
 
-JBPM4 Web Designer ������Ϊʹ��������ԭ�е���Ʒ������ͼ��࣬�ο� JBPM4 Eclipse����������
+JBPM4 Web Designer 免费版，用户可直接发送邮件或QQ留言免费索取！！！
 
-JBPM4 Web Designer ������ʹJBPM4 Eclipse����������Ǩ�ơ�����ҳҳ�棬����������谲װ�κβ��������ʵ��������Ƶ��û��Զ��塣Ϊ�û��ṩ��һ����㣬�ҷ��������������ϰ�ߵ������������
+JBPM4 Web Designer 免费版不可拖动编辑区域。
 
-JBPM4 Web Designer ��������div��cssʵ�ֲ��ּ���ͨ���϶����ɽڵ���Ϣ�ȣ���canvas��ǩʵ�ֽڵ�����ߵȡ�
+JBPM4 Web Designer 免费版基本功能包括：创建节点、修改节点、删除节点、建立节点关联、修改节点关联、删除节点关联、折线的生成、生成xml、信息提示等。
 
-JBPM4 Web Designer ������������ܰ����������ڵ㡢�޸Ľڵ㡢ɾ���ڵ㡢�����ڵ�������޸Ľڵ������ɾ���ڵ���������ߵ����ɡ�����xml������xml����Ϣ��ʾ�ȡ�
+--------------------------------------------------------------------------------------------------------------
+JBPM4 Web Designer 完整版
+
+JBPM4 Web Designer 完整版可运行在PC的网页浏览器上，包括Internet Explore（不低于版本6），Firefox，Chrome。
+
+JBPM4 Web Designer 完整版为使软件保持原有的设计风格，流程图简洁，参考 JBPM4 Eclipse插件设计器。
+
+JBPM4 Web Designer 完整版使JBPM4 Eclipse插件设计器“迁移”至网页页面，而浏览器无需安装任何插件，真正实现流程设计的用户自定义。为用户提供了一个简便，且符合自身流程设计习惯的流程设计器。
+
+JBPM4 Web Designer 完整版由div、css实现布局及并通过拖动生成节点信息等，由canvas标签实现节点间连线等。
+
+JBPM4 Web Designer 完整版基本功能包括：创建节点、修改节点、删除节点、建立节点关联、修改节点关联、删除节点关联、折线的生成、生成xml、导入xml、信息提示等。
