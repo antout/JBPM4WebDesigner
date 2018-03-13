@@ -1,0 +1,19 @@
+@charset "utf-8";
+.jbpm{overflow:hidden;}
+.jbpm .toolbar{background-color:#cccccc;border:black 1px solid;}
+.jbpm .toolbar .tools{font-size:12px;padding:2px;}
+.jbpm .toolbar ul{width:100%;padding:0px;margin:0px;}
+.jbpm .toolbar ul li{width:100%;height:24px;margin:0px 0px;list-style-type:none;text-align:center;margin-bottom:1px; }
+.jbpm .toolbar ul li button{margin:0px;padding:0px;width:96%;height:23px;white-space:nowrap;text-align:left;background-color:#ffffff;border:black 1px solid;}
+.jbpm .toolbar ul li button img{height:24px;width:24px;margin-top:-3px}
+.jbpm .toolbar ul li button span{vertical-align:6px;font-size:11px;}
+.jbpm .propertiesTable{font-size:12px;}
+.jbpm .propertiesTable input{font-size:12px; border:#000000 1px solid;}
+.jbpm .normal_node ul{display:inline;margin:0px; padding:0px;height:29px;white-space:nowrap;}
+.jbpm .normal_node ul li.left_li{float:left;height:39px;width:16px;margin:0px; padding:0px;display:inline; background: url(../images/corner.gif) left top no-repeat}
+.jbpm .normal_node ul li.center_li{float:left;height:39px;margin:0px; padding:0px;display:inline;background: url(../images/corner.gif) left -39px repeat-x}
+.jbpm .normal_node ul li.center_li span{line-height:320%;font-size:12px;height:39px;}
+.jbpm .normal_node ul li.right_li{float:left;height:39px;width:16px;margin:0px; padding:0px;display:inline; background: url(../images/corner.gif) right top no-repeat}
+.jbpm .normal_node ul li.close_li{float:left;height:10px;margin:0px; padding:0px;display:inline;width:10px;}
+.jbpm .normal_node ul li.close_li div{FONT-SIZE: 0px; WIDTH: 10px; CURSOR: pointer; POSITION: absolute; HEIGHT: 10px;}
+.jbpm .point{position:absolute;font-size:0px;cursor:move;}

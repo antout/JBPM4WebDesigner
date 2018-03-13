@@ -1,0 +1,55 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>工作流设计器 JBPM workflow designer v1.0</title>
+		<link href ="css/jbpm.css" rel="stylesheet" type="text/css">
+		<script src="jbpm4.js"></script>
+		<script>
+			var jbpm = null;
+			window.onload = function(){
+				jbpm = new JBPM({
+					container:'jbpmContainer',
+					xmlResult:'xmltxt',
+					painter:{
+						lineStyle:{
+							lineColor:'#454645'
+						}
+					}, 
+					pen:{
+						animat:false,
+						lineColor:'red'
+					}
+					,initXML:document.getElementById("jpdl").innerHTML
+				});
+			};
+		</script>
+	</head>
+	<body >
+				
+		<code id="jpdl">
+<!--[CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process key="jbpmTest" name="jbpmTest" xmlns="http://jbpm.org/4.4/jpdl">
+   <start g="113,151,48,48" name="start1">
+      <transition g="-25,-20" name="to 申请" to="申请"/>
+   </start>
+   <task assignee="#{task}" g="227,149,92,52" name="申请">
+      <transition g="-21,-22" name="to 批示" to="审阅"/>
+   </task>
+   <task assignee="#{task}" g="372,154,92,52" name="审阅">
+      <transition g="-21,-25" name="to end1" to="end1"/>
+   </task>
+   <end g="523,160,48,48" name="end1"/>
+</process>
+			]]-->	
+		</code>
+		<div id="jbpmContainer" style="background-color:#FFFFFF;position:relative;left:0px;top:0px;height:600px; width:800px; border:#ffffff 1px solid;">
+		</div>
+		<div>
+			<br>
+			<textarea id="xmltxt" style="width:800px" rows=30></textarea>
+		</div>
+	</body>
+</html>

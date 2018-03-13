@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process xmlns="http://jbpm.org/4.3/jpdl" key="用车申请流程" name="用车申请流程" version="1">
+   <start g="294,25,48,48" name="start">
+      <transition to="用车人申请" />
+   </start>
+   <task assignee="#{userId}" g="258,106,118,52" name="用车人申请">
+      <transition to="处室审批" />
+   </task>
+   <task assignee="#{userId}" g="260,190,117,52" name="处室审批">
+      <transition to="exclusive1" />
+   </task>
+   <decision g="296,286,48,48" name="exclusive1">
+      <transition to="分管领导审批">
+      <condition expr="#{var=='分管领导审批'}" />
+      </transition>
+      <transition to="车管安排">
+      <condition expr="#{var=='车管安排'}" />
+      </transition>
+   </decision>
+   <task assignee="#{userId}" g="414,299,107,52" name="分管领导审批">
+      <transition to="车管安排" />
+   </task>
+   <task assignee="#{userId}" g="261,380,120,52" name="车管安排">
+      <transition to="车辆调度" />
+   </task>
+   <end g="296,652,48,48" name="end" />
+   <task name="车辆调度" g="262,469,117,52" assignee="#{userId}">
+      <transition to="秘书处审核" />
+   </task>
+   <task name="秘书处审核" g="264,561,114,52" assignee="#{userId}">
+      <transition to="end" />
+   </task> 
+</process>
