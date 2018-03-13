@@ -1,4 +1,4 @@
-JBPM4 Web Designer 1.2cut 免费版
+JBPM4 Web Designer 1.4cut 免费版
 
 1、修正了task节点中type与expression生成xml的的错误
 
